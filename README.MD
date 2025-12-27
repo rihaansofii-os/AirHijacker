@@ -53,7 +53,7 @@ attack
 ```
 In the attack menu, select the Wi-Fi network you want to brute-force by typing the associated number (for example: 1, 2, or 3).
 
-#Disclaimer
+<h1 align="center">Disclaimer</h2>
 
 AirHijacker is developed strictly for authorized security research, educational use, and ethical penetration testing.
 It must only be used on Wi-Fi networks you own or have explicit written permission to test.
@@ -61,17 +61,18 @@ It must only be used on Wi-Fi networks you own or have explicit written permissi
 Any unauthorized or illegal use is strictly prohibited.
 The author assumes no liability for misuse.
 
-Author
+<h1 align="center">Author</h2>
 
 BlackHatRihaan
 Offensive Security • Wireless Security Research
 Tooling • Attack Simulation • Ethical Hacking
 
-License
+<h1 align="center">License</h2>
 
 This project is released for educational and research purposes only.
 
 Use responsibly.
+
 
 
 
