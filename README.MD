@@ -18,6 +18,7 @@ Simple interactive CLI.
 Designed for security research & labs.
 
 <h1 align="center">Requirements</h3>
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -71,6 +72,7 @@ Tooling • Attack Simulation • Ethical Hacking
 
 This project is released for educational and research purposes only.
 Use responsibly.
+
 
 
 
