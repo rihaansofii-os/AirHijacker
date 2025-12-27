@@ -1,0 +1,4 @@
+AirHijacker is available as a dedicated Windows application, providing a fast, user-friendly interface for wireless security testing without requiring manual script execution. Built for efficiency, clarity, and practical testing workflows.
+
+Disclaimer:
+This tool is intended only for educational purposes and authorized security testing. Unauthorized use against networks you do not own or have permission to test is illegal and strictly prohibited.
