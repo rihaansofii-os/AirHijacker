@@ -1,4 +1,4 @@
-#AirHijacker
+AirHijacker
 
 AirHijacker is a wireless security research tool designed to perform active Wi-Fi authentication attack simulations in authorized environments.
 It focuses on real-time connection attempts rather than traditional offline WPA handshake cracking.
@@ -70,4 +70,5 @@ Tooling • Attack Simulation • Ethical Hacking
 ##License
 
 This project is released for educational and research purposes only.
+
 Use responsibly.
