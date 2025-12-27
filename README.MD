@@ -70,8 +70,8 @@ Tooling • Attack Simulation • Ethical Hacking
 <h1 align="center">License</h2>
 
 This project is released for educational and research purposes only.
-
 Use responsibly.
+
 
 
 
