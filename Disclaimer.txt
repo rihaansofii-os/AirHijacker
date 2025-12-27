@@ -1,0 +1,23 @@
+Tool Name: [AirHijacker]
+Version: [v1.0]
+Author: [BlackHatRihaan]
+Date: [10:10:24]
+
+1. Usage Terms
+This software is provided solely for educational, security research, and authorized penetration testing.
+You may use, modify, and distribute it only for ethical and legal purposes.
+
+2. Restrictions
+You must have explicit permission from the network owner before using this tool.
+Unauthorized access to networks is illegal and punishable by law.
+The authors and contributors are not responsible for any misuse or illegal activities.
+3. Disclaimer
+This software is intended only for ethical hacking and cybersecurity research.
+⚠️ WARNING: Using this tool on unauthorized networks may be illegal in your country. Proceed at your own risk.
+
+4. No Warranty
+This software is provided "as is", without any warranties, express or implied.
+The authors assume no liability for any consequences resulting from its use.
+
+5. Legal Compliance
+By using this tool, you acknowledge that you are fully responsible for complying with all applicable cybersecurity laws and regulations.
