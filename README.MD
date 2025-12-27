@@ -24,11 +24,11 @@ pip install -r requirements.txt
 ```
 OR 
 ```bash 
-pip3 install pywifi requirements.txt
+pip3 install -r requirements.txt
 ```
 Installation
 ```bash
-git clone https://github.com/yourusername/AirHijacker.git
+git clone https://github.com/rihaansofii-os/AirHijacker
 cd AirHijacker
 python airhijacker.py
 ```
@@ -72,6 +72,7 @@ Tooling • Attack Simulation • Ethical Hacking
 
 This project is released for educational and research purposes only.
 Use responsibly.
+
 
 
 
