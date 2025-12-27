@@ -1,5 +1,32 @@
 import itertools
 import random
+import os
+from colorama import Fore, Style, init
+
+init(autoreset=True)
+
+def show_banner():
+    print(Fore.GREEN + Style.BRIGHT + r"""
+          
+ █     █░ ▒█████   ██▀███  ▓█████▄  ██▓     ██▓  ██████ ▄▄▄█████▓    ▄████▄   ██▀███  ▓█████ ▄▄▄     ▄▄▄█████▓▓█████  ██▀███  
+▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌▓██▒    ▓██▒▒██    ▒ ▓  ██▒ ▓▒   ▒██▀ ▀█  ▓██ ▒ ██▒▓█   ▀▒████▄   ▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒
+▒█░ █ ░█ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌▒██░    ▒██▒░ ▓██▄   ▒ ▓██░ ▒░   ▒▓█    ▄ ▓██ ░▄█ ▒▒███  ▒██  ▀█▄ ▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒
+░█░ █ ░█ ▒██   ██░▒██▀▀█▄  ░▓█▄   ▌▒██░    ░██░  ▒   ██▒░ ▓██▓ ░    ▒▓▓▄ ▄██▒▒██▀▀█▄  ▒▓█  ▄░██▄▄▄▄██░ ▓██▓ ░ ▒▓█  ▄ ▒██▀▀█▄  
+░░██▒██▓ ░ ████▓▒░░██▓ ▒██▒░▒████▓ ░██████▒░██░▒██████▒▒  ▒██▒ ░    ▒ ▓███▀ ░░██▓ ▒██▒░▒████▒▓█   ▓██▒ ▒██▒ ░ ░▒████▒░██▓ ▒██▒
+░ ▓░▒ ▒  ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ ░ ▒░▓  ░░▓  ▒ ▒▓▒ ▒ ░  ▒ ░░      ░ ░▒ ▒  ░░ ▒▓ ░▒▓░░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░   ░░ ▒░ ░░ ▒▓ ░▒▓░
+  ▒ ░ ░    ░ ▒ ▒░   ░▒ ░ ▒░ ░ ▒  ▒ ░ ░ ▒  ░ ▒ ░░ ░▒  ░ ░    ░         ░  ▒     ░▒ ░ ▒░ ░ ░  ░ ▒   ▒▒ ░   ░     ░ ░  ░  ░▒ ░ ▒░
+  ░   ░  ░ ░ ░ ▒    ░░   ░  ░ ░  ░   ░ ░    ▒ ░░  ░  ░    ░         ░          ░░   ░    ░    ░   ▒    ░         ░     ░░   ░ 
+    ░        ░ ░     ░        ░        ░  ░ ░        ░              ░ ░         ░        ░  ░     ░  ░           ░  ░   ░     
+                            ░                                       ░                                                         
+""" + Style.RESET_ALL)
+
+print(Fore.CYAN + Style.BRIGHT + """
+────────────────────────────────────────────────────────
+   ------ WordList Creater ------
+   Author      : BlackHatRihaans
+────────────────────────────────────────────────────────
+""" + Style.RESET_ALL)
+
 
 def generate_wordlist(details, special_chars, output_file="wordlist.txt", num_words=10000):
     wordlist = set()
@@ -42,6 +69,7 @@ def generate_wordlist(details, special_chars, output_file="wordlist.txt", num_wo
     print(f"Wordlist generated: {output_file} ({len(wordlist)} words)")
 
 if __name__ == "__main__":
+    show_banner()
     first_name = input("Enter First Name (or press Enter to skip): ")
     surname = input("Enter Surname (or press Enter to skip): ")
     partners_name = input("Enter Partner's Name (or press Enter to skip): ")
@@ -66,3 +94,5 @@ if __name__ == "__main__":
     file_name = input("Enter the filename to save the wordlist (default: wordlist.txt): ") or "wordlist.txt"
     
     generate_wordlist(details, special_chars, output_file=file_name)
+
+
