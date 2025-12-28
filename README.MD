@@ -26,11 +26,11 @@ OR
 ```bash 
 pip3 install -r requirements.txt
 ```
-Installation
+<h1 align="center">Installation</h3>
+
 ```bash
 git clone https://github.com/rihaansofii-os/AirHijacker
 cd AirHijacker
-python airhijacker.py
 ```
 usages
 ```bash
@@ -72,6 +72,7 @@ Tooling • Attack Simulation • Ethical Hacking
 
 This project is released for educational and research purposes only.
 Use responsibly.
+
 
 
 
