@@ -11,6 +11,7 @@ You may use, modify, and distribute it only for ethical and legal purposes.
 You must have explicit permission from the network owner before using this tool.
 Unauthorized access to networks is illegal and punishable by law.
 The authors and contributors are not responsible for any misuse or illegal activities.
+
 3. Disclaimer
 This software is intended only for ethical hacking and cybersecurity research.
 ⚠️ WARNING: Using this tool on unauthorized networks may be illegal in your country. Proceed at your own risk.
