@@ -20,7 +20,7 @@ Designed for security research & labs.
 <h1 align="center">Installation</h3>
 
 ```bash
-git clone https://github.com/OffSecRihaan/AirHijacker/
+git clone https://github.com/OffSecRihaan/AirHijacker
 cd AirHijacker
 ```
 <h1 align="center">Requirements</h3>
