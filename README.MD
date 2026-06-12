@@ -17,6 +17,12 @@ Simple interactive CLI.
 
 Designed for security research & labs.
 
+<h1 align="center">Installation</h3>
+
+```bash
+git clone https://github.com/rihaansofii-os/AirHijacker
+cd AirHijacker
+```
 <h1 align="center">Requirements</h3>
 
 ```bash
@@ -26,12 +32,7 @@ OR
 ```bash 
 pip3 install -r requirements.txt
 ```
-<h1 align="center">Installation</h3>
 
-```bash
-git clone https://github.com/rihaansofii-os/AirHijacker
-cd AirHijacker
-```
 usages
 ```bash
 python AirHijacker.py
